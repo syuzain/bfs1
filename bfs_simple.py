@@ -1,4 +1,6 @@
 """Simple Streamlit BFS app. Run: python -m streamlit run bfs_simple.py"""
+import json
+from collections import deque
 
 import streamlit as st
 from graphviz import Digraph, escape
